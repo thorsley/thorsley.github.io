@@ -111,3 +111,6 @@ form {
 .row  img:hover{
     opacity: .5;
 }
+#top{
+    text-align: center;
+}
