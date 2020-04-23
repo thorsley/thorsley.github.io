@@ -1,116 +1,88 @@
-@import url('https://fonts.googleapis.com/css?family=Sriracha&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Modak&display=swap');
-
-.jumbotron {
-    background: url(assets/portfoliobRound.webp) center;
+.jumbotron{
+    background-image: url('https://images.unsplash.com/photo-1570039486851-9caa462a2cd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-size: cover;
-    color: #379683;
     height: 100vh;
-    text-align: right;
-    font-family: 'Sriracha', cursive;
-    text-shadow: 1px 3px #05386B;
-
-
-
-}
-
-body {
-    color: #5CDB95;
-    background-color: #05386B;
-}
-
-.contact {
-    padding: 40px 40px;
-}
-
-.contactMain {
     text-align: center;
-}
-
-.media-body {
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-
-
-
-
-h2 {
-
-    text-shadow: 0px 2px 3px black;
-    border-bottom: 5px dotted #379683;
-    text-align: center;
-
-    font-family: 'Modak', cursive;
-
-}
-
-#me {
-    padding: 3px;
-    border: 1px solid #5CDB95;
-    background-color: #379683;
-
-}
-
-form {
-    background: url(Pics/portfoliobRound.webp) bottom;
-}
-
-
-.skills img {
-    height: 7rem;
-    width: auto;
-    margin: 2.5rem;
-
-
-}
-
-.skills {
-    display: flex;
-    align-items: center;
-    background-color: #5CDB95;
-    text-align: center;
-}
-
-.contactme {
-    display: flex;
-    justify-content: center;
-}
-#form_email{
-    background-color: lightgrey;
+    color:whitesmoke;
+    /* font-family: 'Montserrat', sans-serif; */
     
 }
-#form_message{
-    background-color: lightgrey;
+.display-4{
+    padding: 1em;
 }
-#form_name{
-    background-color: lightgrey;
-
+.lead{
+    padding-bottom:0.8em;
+}
+#project-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    padding:0.5em;
+    margin-top: 5em;
+    margin-bottom: 12em;
+}
+#about-section{
+    margin-top: 15em;
+    background-color: #2d545e;
+    color:whitesmoke;
+}
+.media{
+    margin-top: 1em;
+    margin-bottom: 15em;
+    padding: 0em 3em;
 }
 .icons img:hover{
     opacity: .5;
 
 }
-.icons img{
-    border: 2px solid black;
-    border-radius: 10px;
+h3{
+    text-align: center;
 }
-.skills{
-    display :flex ;
-    justify-content: center;
+#contact-form{
+    padding: 1em;
+    background-color: #2d545e;
+    color:whitesmoke;
 }
-#footer{
+.footer{
+    padding-top: 3em;
+    color:#12343b;
+    text-align:center;
+}
+#about-section p{
+    word-spacing: 6px;
+    line-height: 3em;
+
+}
+#aboutphoto{
+   border:6px solid black;
+   
+}
+ h3{
+    padding:3em;
+}
+ body{
+    background-color: #c89666;
+    font-family: 'Montserrat', sans-serif;
+} 
+#project-name{
+    color:#12343b;
+}
+.resume{
+    background-color: #12343b;
+  border-color: #2d545e;
+  
+}
+.resume:hover{
+    background-color: #2d545e;
+  border-color: #12343b;
+}
+.resume-download{
     display: flex;
     justify-content: center;
-}
-.row  img:hover{
-    opacity: .5;
-}
-#top{
-    text-align: center;
+    margin-top: 10em;
 }

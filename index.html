@@ -2,209 +2,137 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="main.css">
-  <title>My portfolio</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title>Trevors Portfolio</title>
 </head>
 
 <body>
-  <div>
-
-    <!--nav bar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-link" id="home">
-      <a class="navbar-brand" href="#">TH</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#home">Home <span class="sr-only"></span></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#contact-form">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <div class="parallax"></div>
-    <!--header-->
-    <div id=top class="jumbotron jumbotron-fluid" >
-      <div class="container">
-        <h1 class="display-4">Trevor Horsley</h1>
-        <h3 class="lead">Web Developer</h3>
-        <!--Git hub link/ linked in -->
-        <a class="icons" href="https://github.com/thorsley" target="_blank"><img src="assets/github-8-48.png" alt="github Link"></a>
+    <div>
+        <!-- Navbar -->
+        <nav class="navbar sticky-top navbar-light bg-light">
+            <a class="navbar-brand" href="#">TH</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#about-section">About</a>
+                    <a class="nav-item nav-link" href="#project-name">Projects</a>
+                    <a class="nav-item nav-link" href="#contact-form" >Contact</a>
+                </div>
+            </div>
+        </nav>
+        <!-- title -->
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Trevor Horsley</h1>
+                <h2 class="lead">Web Developer</h2>
+                <a class="icons" href="https://github.com/thorsley" target="_blank"><img src="assets/icons8-github-96 (1).png" alt="github Link"></a>
         <a class="icons" href="https://www.linkedin.com/in/trevor-horsley-4543a418a/" target="_blank"><img
-            src="assets/linkedin-3-48(1).png" alt="linkedin link"></a>
+            src="assets/icons8-linkedin-96.png" alt="linkedin link"></a>
+            </div>
+        </div>
+        <div class="resume-download">
+            <form method="get" action="./assets/Trevor's Resume.pdf" target="_blank">
+                <button type="submit"  class="btn btn-primary btn-xl  resume">Download Resume</button>
+             </form>
+        </div>
 
-      </div>
+        <!-- about -->
+
+        <div id="about-section">
+            <h3>About</h3>
+        <div class="media">
+            <div class="media-body">
+                <h5 class="mt-0 mb-1">Hi, I'm Trevor Horsley</h5>
+              <p> I have been working the last five years as a technical support advisor. During that time I became interested in websites and the technology's behind them. I recently graduated from Eleven Fifty Acadamy Web Developer program. I'm exited to take my new skills to a job in Web Development and continue to grow my skills.</p> 
+            </div>
+            <img src="./assets/TrevorHorsely2(3).jpg" class="ml-3" id="aboutphoto" alt="picture of trevor">
+        </div>
+    </div>
+        <!-- projects -->
+        <!-- card1 -->
+        <h3 id="project-name">Projects</h3>
+        <div id="project-cards">
+        <div class="card" style="width: 18rem;">
+            <img src="./assets/Weather APi.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Just Weather</h5>
+                <p class="card-text">Made using HTML, CSS, Vanilla JS deployed with firebase</p>
+            </div>
+            <div class="card-body">
+                <a href="https://github.com/thorsley/Weatherapp" class="card-link">View Code</a>
+                <a href="https://th-weather-api-35b45.firebaseapp.com/" class="card-link">View Site</a>
+                
+            </div>
+        </div>
+        
+        <!-- card2 -->
+        <div class="card" style="width: 18rem;">
+            <img src="./assets/skateparkapp-photo.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">SkateSpots</h5>
+                <p class="card-text">Made using React.js, Epress.js, Node.js. deployed with heroku</p>
+            </div>
+            <div class="card-body">
+                <a href="https://github.com/thorsley/skatepark-client" class="card-link">View Code</a>
+                <a href="https://skatepark-client.herokuapp.com/" class="card-link">View Site</a>
+            </div>
+        </div>
+        <!-- card3 -->
+        <div class="card" style="width: 18rem;">
+            <img src="./assets/farmgistic-photo.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Farmgistic</h5>
+                <p class="card-text">This was a team project created using React.js, Express.js, Node.js deployed with heroku</p>
+            </div>
+            <div class="card-body">
+                <a href="https://github.com/thorsley/Farmgistic" class="card-link">View Code</a>
+                <a href=" https://farmgistic.herokuapp.com/" class="card-link">View Site</a>
+            </div>
+        </div>
     </div>
 
-
-    <!--About section-->
-
-
-    <section id="about">
-      <div class="media">
-
-        <img id="me" src="assets/me.png" alt="photo of me" class="rounded-circle" class="align-self-center mr-3" width=200px
-          height=200px>
-        <div class="media-body">
-          <h2 class="mt-0">About</h2>
-          <p>Hello, my name is Trevor I was born and raised in Indiana. For the last five years I have worked technical support. I am currently attending eleven fifty academey.</p>
-         
+        <!-- contact -->
+        <div id="contact-form" >
+            <h3 class="h1-responsive font-weight-bold text-center my-4">Contact</h3>
+         <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly.</p>
+        <form action="https://formspree.io/mqkdrdbn" method="POST">
+        <div class="form-group">
+            <label name="_replyto" for="Email">Email</label>
+            <input autocomplete="off" name="_replyto" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
         </div>
-      </div>
-    </section>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input autocomplete="off" type="text" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="form-group">
+            <label name="_replyto" for="form_message">Message</label>
+            <textarea autocomplete="off"type="text" class="form-control" id="exampleInputPassword1"></textarea>
+        </div>
+       
+        <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
 
-
-    <br>
-    <br>
-    <br>
-    <br>
+            </div>
+           
     
-    <br>
-    <br>
-    <hr>
 
-
-    <!--projects images should be 400x300 -->
-    <div class="container" id="projects">
-
-      <h2>Projects</h2>
-
-      <hr class="mt-2 mb-5">
-
-      <div class="row text-center text-lg-left">
-
-        <div class="col-lg-3 col-md-4 col-6">
-          <a href="https://codepen.io/Thorsley122/pen/vYEMdLK" target="_blank" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="assets/Codepen creature.PNG" alt="Duck in css3">
-          </a>
+        <!-- footer -->
+        <div class="footer">
+            <p >© 2020 Trevor Horsley </p>
         </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <a href="https://thorsley.github.io/static-webpage/" target="_blank" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="assets/elevenfiftypic.PNG" alt="elevenfifty static website" width="400px" height="700px">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <a href="https://th-weather-api-35b45.firebaseapp.com/" target="_blank" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="assets/Weather APi.PNG" alt="Weather Api" width="400px" height="700px">
-          </a>
-        </div>
-        <!--
-        <div class="col-lg-3 col-md-4 col-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/M185_qYH8vg/400x300" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/sesveuG_rNo/400x300" alt="">
-          </a>border-radius: 25px;
-        </div>
-      -->
-      </div>
     </div>
-
-  </div>
-
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <!--skills-->
-  <h2 class="contactMain">Skills</h2>
-
-  <div class="skills">
-    <img src="assets/html5Logo.png" alt="html logo">
-    <img src="assets/css3Logo.png" alt="css logo">
-    <img src="assets/javascriptLogo.png" alt="javascript logo">
-    <img src="assets/firebaseLogo.png" alt="firebase logo">
-    <img src="assets/bootstrapLogo.png" alt="bootstrap logo">
-    <img src="assets/githubLogo.png" alt="github logo">
-</div>
-  <br>
-  <br>
-  <!--Contact-->
-
-
-  <h2 class="contactMain">Contact</h2>
-  <br>
-  <br>
-  <form id="contact-form" method="post" action="https://formspree.io/xdogpawy" role="form" class="contact">
-
-    <div class="messages"></div>
-
-    <div class="controls">
-
-      <div class="row">
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for="form_name">Name</label>
-            <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname"
-              required="required" data-error="Firstname is required.">
-
-          </div>
-        </div>
-      
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for="form_email">Email</label>
-            <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email"
-              required="required" data-error="Valid email is required." >
-
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="form-group">
-            <label for="form_message">Message</label>
-            <textarea id="form_message" name="message" class="form-control" placeholder="Enter a message" rows="4"
-              required="required" data-error="Please,leave us a message."></textarea>
-            <div class="help-block with-errors"></div>
-          </div>
-        </div>
-        <div class="col-md-12">
-          <input type="submit" class="btn btn-success btn-send" value="Send">
-        </div>
-      </div>
-
-    </div>
-
-  </form>
-
-  <hr>
-  <!--footer-->
-<div id="footer">
-  <p class="footer">© 2020 Trevor Horsley </p>
-  <a href="#home">Back to top </a>
-</div>
-
-
-
-
-  </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>
