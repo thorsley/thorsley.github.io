@@ -1,138 +1,128 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Trevor Horsley portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="main.css">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-    <title>Trevors Portfolio</title>
-</head>
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
 
-<body>
-    <div>
-        <!-- Navbar -->
-        <nav class="navbar sticky-top navbar-light bg-light">
-            <a class="navbar-brand" href="#">TH</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#about-section">About</a>
-                    <a class="nav-item nav-link" href="#project-name">Projects</a>
-                    <a class="nav-item nav-link" href="#contact-form" >Contact</a>
-                </div>
-            </div>
-        </nav>
-        <!-- title -->
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <h1 class="display-4">Trevor Horsley</h1>
-                <h2 class="lead">Web Developer</h2>
-                <a class="icons" href="https://github.com/thorsley" target="_blank"><img src="assets/icons8-github-96 (1).png" alt="github Link"></a>
-        <a class="icons" href="https://www.linkedin.com/in/trevor-horsley-4543a418a/" target="_blank"><img
-            src="assets/icons8-linkedin-96.png" alt="linkedin link"></a>
-            </div>
-        </div>
-        <div class="resume-download">
-            <form method="get" action="./assets/Trevor's Resume.pdf" target="_blank">
-                <button type="submit"  class="btn btn-primary btn-xl  resume">Download Resume</button>
-             </form>
-        </div>
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Trevor Horsley</h1>
+						<p>UX/UI Designer </p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
 
-        <!-- about -->
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Home</a>
+					</header>
 
-        <div id="about-section">
-            <h3>About</h3>
-        <div class="media">
-            <div class="media-body">
-                <h5 class="mt-0 mb-1">Hi, I'm Trevor Horsley</h5>
-              <p> I have been working the last five years as a technical support advisor. During that time I became interested in websites and the technology's behind them. I recently graduated from Eleven Fifty Acadamy Web Developer program. I'm exited to take my new skills to a job in Web Development and continue to grow my skills.</p> 
-            </div>
-            <img src="./assets/TrevorHorsely2(3).jpg" class="ml-3" id="aboutphoto" alt="picture of trevor">
-        </div>
-    </div>
-        <!-- projects -->
-        <!-- card1 -->
-        <h3 id="project-name">Projects</h3>
-        <div id="project-cards">
-        <div class="card" style="width: 18rem;">
-            <img src="./assets/Weather APi.PNG" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Just Weather</h5>
-                <p class="card-text">Made using HTML, CSS, Vanilla JS deployed with firebase</p>
-            </div>
-            <div class="card-body">
-                <a href="https://github.com/thorsley/Weatherapp" class="card-link">View Code</a>
-                <a href="https://th-weather-api-35b45.firebaseapp.com/" class="card-link">View Site</a>
-                
-            </div>
-        </div>
-        
-        <!-- card2 -->
-        <div class="card" style="width: 18rem;">
-            <img src="./assets/skateparkapp-photo.PNG" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">SkateSpots</h5>
-                <p class="card-text">Made using React.js, Epress.js, Node.js. deployed with heroku</p>
-            </div>
-            <div class="card-body">
-                <a href="https://github.com/thorsley/skatepark-client" class="card-link">View Code</a>
-                <a href="https://skatepark-client.herokuapp.com/" class="card-link">View Site</a>
-            </div>
-        </div>
-        <!-- card3 -->
-        <div class="card" style="width: 18rem;">
-            <img src="./assets/farmgistic-photo.PNG" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Farmgistic</h5>
-                <p class="card-text">This was a team project created using React.js, Express.js, Node.js deployed with heroku</p>
-            </div>
-            <div class="card-body">
-                <a href="https://github.com/thorsley/Farmgistic" class="card-link">View Code</a>
-                <a href=" https://farmgistic.herokuapp.com/" class="card-link">View Site</a>
-            </div>
-        </div>
-    </div>
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="#posts">Projects</a></li>
+							<li class="active"><a href="#footer">Contact</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/trevor-horsley-4543a418a/" class="icon brands fa-linkedin"><span class="label">Instagram</span></a></li>
+						</ul>
+					</nav>
 
-        <!-- contact -->
-        <div id="contact-form" >
-            <h3 class="h1-responsive font-weight-bold text-center my-4">Contact</h3>
-         <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly.</p>
-        <form action="https://formspree.io/mqkdrdbn" method="POST">
-        <div class="form-group">
-            <label name="_replyto" for="Email">Email</label>
-            <input autocomplete="off" name="_replyto" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        </div>
-        <div class="form-group">
-            <label for="name">Name</label>
-            <input autocomplete="off" type="text" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="form-group">
-            <label name="_replyto" for="form_message">Message</label>
-            <textarea autocomplete="off"type="text" class="form-control" id="exampleInputPassword1"></textarea>
-        </div>
-       
-        <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+				<!-- Main -->
+					<div id="main">
 
-            </div>
-           
-    
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2><a href="#">My Name is Trevor</a></h2>
+								</header>
+								<img src="./images/trevor 2.png" alt="picture of Trevor" style="width:300px;height:400px;" class="trevorpic">
+								<!-- <a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
+								<ul class="actions special">
+									<li><a href="#" class="button large">Check it out</a></li>
+								</ul> -->
+							</article>
+							<br>
+							<br>
+							<br>
+							<div class="thebutton">
+							<a href="#" class="myButton">Open Resume</a></div>
+						<!-- Posts -->
+							<section id="posts" class="posts">
+								<article>
+									<header>
+										
+										<h2><a href="#">Moto cross app</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="./images/login.png" height="60%"  alt="" /></a>
+									<p>Redesign of a moto cross app that allows the user to login, search for nearby tracks and easily access information on the track.</p>
+									<ul class="actions special">
+										<li><a href="./motocrossapp.html" class="button">Check it out</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+				
+										<h2><a href="#">Path Schools</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/Dashboard (1).png" alt="" /></a>
+									<p>School application designed in figma</p>
+									<ul class="actions special">
+										<li><a href="./schoolapp.html" class="button">Check it out</a></li>
+									</ul>
+								</article>
+							
+								
+							</section>
 
-        <!-- footer -->
-        <div class="footer">
-            <p >© 2020 Trevor Horsley </p>
-        </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+					
+					</div>
 
+				<!-- Footer -->
+					<footer id="footer">
+						<section class="split contact">
+							<section>
+								<h3>Email</h3>
+								<p><a href = "mailto: Trevorhorsley122@gmail.com">Trevorhorsley122@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://www.linkedin.com/in/trevor-horsley-4543a418a/" class="icon brands fa-linkedin"><span class="label">Instagram</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Trevor Horsley</li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
